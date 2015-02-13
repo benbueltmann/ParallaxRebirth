@@ -68,7 +68,7 @@
                   [UIImage imageNamed:@"26"],
                   [UIImage imageNamed:@"27"],
                   [UIImage imageNamed:@"28"],
-                  [UIImage imageNamed:@"29"],
+//                  [UIImage imageNamed:@"29"],
                   [UIImage imageNamed:@"30"],
                   [UIImage imageNamed:@"31"]
                   ];
