@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		9873BAAA1A8D48E90077ECAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873BAA91A8D48E90077ECAB /* main.m */; };
 		9873BAAD1A8D48E90077ECAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873BAAC1A8D48E90077ECAB /* AppDelegate.m */; };
-		9873BAB01A8D48E90077ECAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873BAAF1A8D48E90077ECAB /* ViewController.m */; };
-		9873BAB31A8D48E90077ECAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9873BAB11A8D48E90077ECAB /* Main.storyboard */; };
 		9873BAB51A8D48E90077ECAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9873BAB41A8D48E90077ECAB /* Images.xcassets */; };
 		9873BAB81A8D48E90077ECAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9873BAB61A8D48E90077ECAB /* LaunchScreen.xib */; };
 		9873BAC41A8D48E90077ECAB /* ParallaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873BAC31A8D48E90077ECAB /* ParallaxTests.m */; };
+		9873BACF1A8D4D5A0077ECAB /* ParallaxLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873BACE1A8D4D5A0077ECAB /* ParallaxLayoutAttributes.m */; };
+		9873BAD21A8D4D740077ECAB /* ParallaxFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873BAD11A8D4D740077ECAB /* ParallaxFlowLayout.m */; };
+		9873BAE81A8D4DE00077ECAB /* ParallaxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873BAE71A8D4DE00077ECAB /* ParallaxCell.m */; };
+		9873BAEB1A8D4E370077ECAB /* ParallaxCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9873BAEA1A8D4E370077ECAB /* ParallaxCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,19 @@
 		9873BAA91A8D48E90077ECAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9873BAAB1A8D48E90077ECAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9873BAAC1A8D48E90077ECAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9873BAAE1A8D48E90077ECAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9873BAAF1A8D48E90077ECAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9873BAB21A8D48E90077ECAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9873BAB41A8D48E90077ECAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9873BAB71A8D48E90077ECAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9873BABD1A8D48E90077ECAB /* ParallaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9873BAC21A8D48E90077ECAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9873BAC31A8D48E90077ECAB /* ParallaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParallaxTests.m; sourceTree = "<group>"; };
+		9873BACD1A8D4D5A0077ECAB /* ParallaxLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxLayoutAttributes.h; sourceTree = "<group>"; };
+		9873BACE1A8D4D5A0077ECAB /* ParallaxLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxLayoutAttributes.m; sourceTree = "<group>"; };
+		9873BAD01A8D4D740077ECAB /* ParallaxFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxFlowLayout.h; sourceTree = "<group>"; };
+		9873BAD11A8D4D740077ECAB /* ParallaxFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxFlowLayout.m; sourceTree = "<group>"; };
+		9873BAE61A8D4DE00077ECAB /* ParallaxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxCell.h; sourceTree = "<group>"; };
+		9873BAE71A8D4DE00077ECAB /* ParallaxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxCell.m; sourceTree = "<group>"; };
+		9873BAE91A8D4E370077ECAB /* ParallaxCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxCollectionViewController.h; sourceTree = "<group>"; };
+		9873BAEA1A8D4E370077ECAB /* ParallaxCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +90,14 @@
 			children = (
 				9873BAAB1A8D48E90077ECAB /* AppDelegate.h */,
 				9873BAAC1A8D48E90077ECAB /* AppDelegate.m */,
-				9873BAAE1A8D48E90077ECAB /* ViewController.h */,
-				9873BAAF1A8D48E90077ECAB /* ViewController.m */,
-				9873BAB11A8D48E90077ECAB /* Main.storyboard */,
+				9873BAE91A8D4E370077ECAB /* ParallaxCollectionViewController.h */,
+				9873BAEA1A8D4E370077ECAB /* ParallaxCollectionViewController.m */,
+				9873BAD01A8D4D740077ECAB /* ParallaxFlowLayout.h */,
+				9873BAD11A8D4D740077ECAB /* ParallaxFlowLayout.m */,
+				9873BAE61A8D4DE00077ECAB /* ParallaxCell.h */,
+				9873BAE71A8D4DE00077ECAB /* ParallaxCell.m */,
+				9873BACD1A8D4D5A0077ECAB /* ParallaxLayoutAttributes.h */,
+				9873BACE1A8D4D5A0077ECAB /* ParallaxLayoutAttributes.m */,
 				9873BAB41A8D48E90077ECAB /* Images.xcassets */,
 				9873BAB61A8D48E90077ECAB /* LaunchScreen.xib */,
 				9873BAA71A8D48E90077ECAB /* Supporting Files */,
@@ -199,7 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9873BAB31A8D48E90077ECAB /* Main.storyboard in Resources */,
 				9873BAB81A8D48E90077ECAB /* LaunchScreen.xib in Resources */,
 				9873BAB51A8D48E90077ECAB /* Images.xcassets in Resources */,
 			);
@@ -219,9 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9873BAB01A8D48E90077ECAB /* ViewController.m in Sources */,
+				9873BAD21A8D4D740077ECAB /* ParallaxFlowLayout.m in Sources */,
 				9873BAAD1A8D48E90077ECAB /* AppDelegate.m in Sources */,
 				9873BAAA1A8D48E90077ECAB /* main.m in Sources */,
+				9873BAE81A8D4DE00077ECAB /* ParallaxCell.m in Sources */,
+				9873BAEB1A8D4E370077ECAB /* ParallaxCollectionViewController.m in Sources */,
+				9873BACF1A8D4D5A0077ECAB /* ParallaxLayoutAttributes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +258,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9873BAB11A8D48E90077ECAB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9873BAB21A8D48E90077ECAB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9873BAB61A8D48E90077ECAB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +418,7 @@
 				9873BAC91A8D48E90077ECAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9873BACA1A8D48E90077ECAB /* Build configuration list for PBXNativeTarget "ParallaxTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				9873BACC1A8D48E90077ECAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

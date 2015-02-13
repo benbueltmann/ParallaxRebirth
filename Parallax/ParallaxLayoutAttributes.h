@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ParallaxLayoutAttributes.h
 //  Parallax
 //
 //  Created by Ben Bueltmann on 2/12/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ParallaxLayoutAttributes : UICollectionViewLayoutAttributes
 
+@property (nonatomic) CGPoint parallaxOffset;
 
 @end
-
